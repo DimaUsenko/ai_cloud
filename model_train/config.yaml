@@ -1,0 +1,15 @@
+dataset_path: "./data/Aquarium"
+batch_size: 4
+epoch_num: 1
+
+checkpoint_pl: ""
+
+wandb_project_name: "final-test"
+wandb_run_name: "fastrcnn_Aquarium_1_ep"
+
+fast_dev_run: False
+
+checkpoint_pl_output: "./pl_checkpointAquarium/"
+model_state_dict_output: "./Aquarium_state_dict/"
+
+gpus_num: 0
