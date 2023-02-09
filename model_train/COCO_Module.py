@@ -19,7 +19,7 @@ class COCO_Module(pl.LightningModule):
         return FRCNNObjectDetector(pretrained_weights_path, num_classes)
 
     def forward(self, image):
-        self.model.eval()
+        
         output = self.model(image)
 
         return output
